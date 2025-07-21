@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>jain1596_data_structures</name>
+	<comment></comment>
+	<projects>
+		<project>jain1596_a01</project>
+		<project>jain1596_a02</project>
+		<project>jain1596_a03</project>
+		<project>jain1596_a04</project>
+		<project>jain1596_a05</project>
+		<project>jain1596_a06</project>
+		<project>jain1596_a07</project>
+		<project>jain1596_a08</project>
+		<project>jain1596_a09</project>
+		<project>jain1596_a10</project>
+		<project>jain1596_l01</project>
+		<project>jain1596_l02</project>
+		<project>jain1596_l03</project>
+		<project>jain1596_l04</project>
+		<project>jain1596_l05</project>
+		<project>jain1596_l06</project>
+		<project>jain1596_l07</project>
+		<project>jain1596_l08</project>
+		<project>jain1596_l09</project>
+		<project>jain1596_l10</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.python.pydev.PyDevBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.python.pydev.pythonNature</nature>
+	</natures>
+</projectDescription>

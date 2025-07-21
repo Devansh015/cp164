@@ -1,0 +1,561 @@
+"""
+-------------------------------------------------------
+Testing
+-------------------------------------------------------
+Author:  Devansh Jain
+ID:      169061596
+Email:   jain1596@mylaurier.ca
+Version: 2024-01-20
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+
+Stack empty:  True
+After pushing:  False
+Top element (peek):  3
+Popped element:  3
+New top element after popping:  2
+Elements in the stack from top to bottom:
+2
+1
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+
+Source array before transferring to stack: [1, 2, 3, 4, 5]
+Source array after transferring to stack: []
+Elements in the stack from top to bottom:
+1
+2
+3
+4
+5
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+
+Is the stack empty after transferring to array?  True
+Elements in the target array: [1, 2, 3, 4, 5]
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+t04 
+-------------------------------------------------------
+
+Pop on empty stack correctly raised an exception.
+Peek on empty stack correctly raised an exception.
+Pushed 50 onto the stack. Top of stack is now: 50
+Pushed 40 onto the stack. Top of stack is now: 40
+Pushed 30 onto the stack. Top of stack is now: 30
+Pushed 20 onto the stack. Top of stack is now: 20
+Pushed 10 onto the stack. Top of stack is now: 10
+Test is_empty after pushing: False
+Popped 10 from the stack.
+Popped 20 from the stack.
+Popped 30 from the stack.
+Popped 40 from the stack.
+Popped 50 from the stack.
+Test is_empty after popping all items: True
+
+Testing with an empty source list:
+Pop on empty stack correctly raised an exception.
+Peek on empty stack correctly raised an exception.
+Test is_empty after pushing: True
+Test is_empty after popping all items: True
+
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+
+
+Pop on empty stack correctly raised an exception.
+Peek on empty stack correctly raised an exception.
+Pushed Name: Chicken Wings
+Origin: American
+Vegetarian: False
+Calories: 298 onto the stack. Top of stack is now: Name: Chicken Wings
+Origin: American
+Vegetarian: False
+Calories: 298
+Pushed Name: Chicken Chow Mein
+Origin: Chinese
+Vegetarian: False
+Calories: 178 onto the stack. Top of stack is now: Name: Chicken Chow Mein
+Origin: Chinese
+Vegetarian: False
+Calories: 178
+Pushed Name: Spring Rolls
+Origin: Chinese
+Vegetarian: True
+Calories: 200 onto the stack. Top of stack is now: Name: Spring Rolls
+Origin: Chinese
+Vegetarian: True
+Calories: 200
+Pushed Name: Panzerotti
+Origin: Italian
+Vegetarian: False
+Calories: 770 onto the stack. Top of stack is now: Name: Panzerotti
+Origin: Italian
+Vegetarian: False
+Calories: 770
+Pushed Name: Chicken Kabob
+Origin: Indian
+Vegetarian: False
+Calories: 167 onto the stack. Top of stack is now: Name: Chicken Kabob
+Origin: Indian
+Vegetarian: False
+Calories: 167
+Pushed Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713 onto the stack. Top of stack is now: Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+Pushed Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425 onto the stack. Top of stack is now: Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Pushed Name: Crepe
+Origin: Italian
+Vegetarian: True
+Calories: 186 onto the stack. Top of stack is now: Name: Crepe
+Origin: Italian
+Vegetarian: True
+Calories: 186
+Pushed Name: Ravioli
+Origin: Italian
+Vegetarian: False
+Calories: 246 onto the stack. Top of stack is now: Name: Ravioli
+Origin: Italian
+Vegetarian: False
+Calories: 246
+Pushed Name: Grilled Salmon
+Origin: Canadian
+Vegetarian: False
+Calories: 511 onto the stack. Top of stack is now: Name: Grilled Salmon
+Origin: Canadian
+Vegetarian: False
+Calories: 511
+Pushed Name: Chip Butty
+Origin: English
+Vegetarian: True
+Calories: 956 onto the stack. Top of stack is now: Name: Chip Butty
+Origin: English
+Vegetarian: True
+Calories: 956
+Pushed Name: Fricot
+Origin: Canadian
+Vegetarian: False
+Calories: 360 onto the stack. Top of stack is now: Name: Fricot
+Origin: Canadian
+Vegetarian: False
+Calories: 360
+Pushed Name: Hokey Pokey Ice Cream
+Origin: New Zealand
+Vegetarian: True
+Calories: 106 onto the stack. Top of stack is now: Name: Hokey Pokey Ice Cream
+Origin: New Zealand
+Vegetarian: True
+Calories: 106
+Pushed Name: Pavlova
+Origin: New Zealand
+Vegetarian: True
+Calories: 272 onto the stack. Top of stack is now: Name: Pavlova
+Origin: New Zealand
+Vegetarian: True
+Calories: 272
+Pushed Name: Shortbread 
+Origin: Scottish
+Vegetarian: True
+Calories: 502 onto the stack. Top of stack is now: Name: Shortbread 
+Origin: Scottish
+Vegetarian: True
+Calories: 502
+Pushed Name: Teriyaki
+Origin: Japanese
+Vegetarian: False
+Calories: 233 onto the stack. Top of stack is now: Name: Teriyaki
+Origin: Japanese
+Vegetarian: False
+Calories: 233
+Pushed Name: Fettuccine
+Origin: Italian
+Vegetarian: False
+Calories: 266 onto the stack. Top of stack is now: Name: Fettuccine
+Origin: Italian
+Vegetarian: False
+Calories: 266
+Pushed Name: Greek Salad
+Origin: Greek
+Vegetarian: True
+Calories: 185 onto the stack. Top of stack is now: Name: Greek Salad
+Origin: Greek
+Vegetarian: True
+Calories: 185
+Pushed Name: Teppanyaki
+Origin: Japanese
+Vegetarian: False
+Calories: 200 onto the stack. Top of stack is now: Name: Teppanyaki
+Origin: Japanese
+Vegetarian: False
+Calories: 200
+Pushed Name: Poutine
+Origin: Canadian
+Vegetarian: False
+Calories: 710 onto the stack. Top of stack is now: Name: Poutine
+Origin: Canadian
+Vegetarian: False
+Calories: 710
+Pushed Name: Szechuan Shrimp
+Origin: Chinese
+Vegetarian: False
+Calories: 516 onto the stack. Top of stack is now: Name: Szechuan Shrimp
+Origin: Chinese
+Vegetarian: False
+Calories: 516
+Pushed Name: Sweet and Sour Pork
+Origin: Chinese
+Vegetarian: False
+Calories: 231 onto the stack. Top of stack is now: Name: Sweet and Sour Pork
+Origin: Chinese
+Vegetarian: False
+Calories: 231
+Pushed Name: Beef with Green Pepper
+Origin: Chinese
+Vegetarian: False
+Calories: 251 onto the stack. Top of stack is now: Name: Beef with Green Pepper
+Origin: Chinese
+Vegetarian: False
+Calories: 251
+Pushed Name: Lemon Chicken
+Origin: Chinese
+Vegetarian: False
+Calories: 226 onto the stack. Top of stack is now: Name: Lemon Chicken
+Origin: Chinese
+Vegetarian: False
+Calories: 226
+Pushed Name: Vegetables with Cashew Nuts
+Origin: Chinese
+Vegetarian: True
+Calories: 143 onto the stack. Top of stack is now: Name: Vegetables with Cashew Nuts
+Origin: Chinese
+Vegetarian: True
+Calories: 143
+Pushed Name: Orange Chicken
+Origin: Chinese
+Vegetarian: False
+Calories: 800 onto the stack. Top of stack is now: Name: Orange Chicken
+Origin: Chinese
+Vegetarian: False
+Calories: 800
+Pushed Name: BBQ Pork
+Origin: Chinese
+Vegetarian: False
+Calories: 920 onto the stack. Top of stack is now: Name: BBQ Pork
+Origin: Chinese
+Vegetarian: False
+Calories: 920
+Pushed Name: Spicy Vegetable Moo Shu
+Origin: Chinese
+Vegetarian: True
+Calories: 140 onto the stack. Top of stack is now: Name: Spicy Vegetable Moo Shu
+Origin: Chinese
+Vegetarian: True
+Calories: 140
+Pushed Name: General Tao Chicken
+Origin: Chinese
+Vegetarian: False
+Calories: 850 onto the stack. Top of stack is now: Name: General Tao Chicken
+Origin: Chinese
+Vegetarian: False
+Calories: 850
+Pushed Name: Kung Pao Chicken
+Origin: Chinese
+Vegetarian: False
+Calories: 229 onto the stack. Top of stack is now: Name: Kung Pao Chicken
+Origin: Chinese
+Vegetarian: False
+Calories: 229
+Pushed Name: Diet Free-Range Gluten-free Water
+Origin: American
+Vegetarian: True
+Calories: 0 onto the stack. Top of stack is now: Name: Diet Free-Range Gluten-free Water
+Origin: American
+Vegetarian: True
+Calories: 0
+Pushed Name: Canada Goose Chili
+Origin: Canadian
+Vegetarian: False
+Calories: 199 onto the stack. Top of stack is now: Name: Canada Goose Chili
+Origin: Canadian
+Vegetarian: False
+Calories: 199
+Pushed Name: Natto
+Origin: Japanese
+Vegetarian: True
+Calories: 212 onto the stack. Top of stack is now: Name: Natto
+Origin: Japanese
+Vegetarian: True
+Calories: 212
+Pushed Name: Chamuco
+Origin: Mexican
+Vegetarian: True
+Calories: 150 onto the stack. Top of stack is now: Name: Chamuco
+Origin: Mexican
+Vegetarian: True
+Calories: 150
+Pushed Name: Shark Fin Soup
+Origin: Chinese
+Vegetarian: False
+Calories: 46 onto the stack. Top of stack is now: Name: Shark Fin Soup
+Origin: Chinese
+Vegetarian: False
+Calories: 46
+Pushed Name: Turducken
+Origin: American
+Vegetarian: False
+Calories: 12240 onto the stack. Top of stack is now: Name: Turducken
+Origin: American
+Vegetarian: False
+Calories: 12240
+Pushed Name: Canuck Burger
+Origin: Canadian
+Vegetarian: False
+Calories: 7500 onto the stack. Top of stack is now: Name: Canuck Burger
+Origin: Canadian
+Vegetarian: False
+Calories: 7500
+Pushed Name: Chirashi Don
+Origin: Japanese
+Vegetarian: False
+Calories: 600 onto the stack. Top of stack is now: Name: Chirashi Don
+Origin: Japanese
+Vegetarian: False
+Calories: 600
+Pushed Name: Spanakopita
+Origin: Greek
+Vegetarian: True
+Calories: 260 onto the stack. Top of stack is now: Name: Spanakopita
+Origin: Greek
+Vegetarian: True
+Calories: 260
+Pushed Name: Vegetable Alicha
+Origin: Ethiopian
+Vegetarian: True
+Calories: 138 onto the stack. Top of stack is now: Name: Vegetable Alicha
+Origin: Ethiopian
+Vegetarian: True
+Calories: 138
+Pushed Name: Moo Goo Guy Pan
+Origin: Chinese
+Vegetarian: False
+Calories: 272 onto the stack. Top of stack is now: Name: Moo Goo Guy Pan
+Origin: Chinese
+Vegetarian: False
+Calories: 272
+Pushed Name: Butter Chicken
+Origin: Indian
+Vegetarian: False
+Calories: 490 onto the stack. Top of stack is now: Name: Butter Chicken
+Origin: Indian
+Vegetarian: False
+Calories: 490
+Pushed Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135 onto the stack. Top of stack is now: Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Test is_empty after pushing: False
+Popped Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135 from the stack.
+Popped Name: Butter Chicken
+Origin: Indian
+Vegetarian: False
+Calories: 490 from the stack.
+Popped Name: Moo Goo Guy Pan
+Origin: Chinese
+Vegetarian: False
+Calories: 272 from the stack.
+Popped Name: Vegetable Alicha
+Origin: Ethiopian
+Vegetarian: True
+Calories: 138 from the stack.
+Popped Name: Spanakopita
+Origin: Greek
+Vegetarian: True
+Calories: 260 from the stack.
+Popped Name: Chirashi Don
+Origin: Japanese
+Vegetarian: False
+Calories: 600 from the stack.
+Popped Name: Canuck Burger
+Origin: Canadian
+Vegetarian: False
+Calories: 7500 from the stack.
+Popped Name: Turducken
+Origin: American
+Vegetarian: False
+Calories: 12240 from the stack.
+Popped Name: Shark Fin Soup
+Origin: Chinese
+Vegetarian: False
+Calories: 46 from the stack.
+Popped Name: Chamuco
+Origin: Mexican
+Vegetarian: True
+Calories: 150 from the stack.
+Popped Name: Natto
+Origin: Japanese
+Vegetarian: True
+Calories: 212 from the stack.
+Popped Name: Canada Goose Chili
+Origin: Canadian
+Vegetarian: False
+Calories: 199 from the stack.
+Popped Name: Diet Free-Range Gluten-free Water
+Origin: American
+Vegetarian: True
+Calories: 0 from the stack.
+Popped Name: Kung Pao Chicken
+Origin: Chinese
+Vegetarian: False
+Calories: 229 from the stack.
+Popped Name: General Tao Chicken
+Origin: Chinese
+Vegetarian: False
+Calories: 850 from the stack.
+Popped Name: Spicy Vegetable Moo Shu
+Origin: Chinese
+Vegetarian: True
+Calories: 140 from the stack.
+Popped Name: BBQ Pork
+Origin: Chinese
+Vegetarian: False
+Calories: 920 from the stack.
+Popped Name: Orange Chicken
+Origin: Chinese
+Vegetarian: False
+Calories: 800 from the stack.
+Popped Name: Vegetables with Cashew Nuts
+Origin: Chinese
+Vegetarian: True
+Calories: 143 from the stack.
+Popped Name: Lemon Chicken
+Origin: Chinese
+Vegetarian: False
+Calories: 226 from the stack.
+Popped Name: Beef with Green Pepper
+Origin: Chinese
+Vegetarian: False
+Calories: 251 from the stack.
+Popped Name: Sweet and Sour Pork
+Origin: Chinese
+Vegetarian: False
+Calories: 231 from the stack.
+Popped Name: Szechuan Shrimp
+Origin: Chinese
+Vegetarian: False
+Calories: 516 from the stack.
+Popped Name: Poutine
+Origin: Canadian
+Vegetarian: False
+Calories: 710 from the stack.
+Popped Name: Teppanyaki
+Origin: Japanese
+Vegetarian: False
+Calories: 200 from the stack.
+Popped Name: Greek Salad
+Origin: Greek
+Vegetarian: True
+Calories: 185 from the stack.
+Popped Name: Fettuccine
+Origin: Italian
+Vegetarian: False
+Calories: 266 from the stack.
+Popped Name: Teriyaki
+Origin: Japanese
+Vegetarian: False
+Calories: 233 from the stack.
+Popped Name: Shortbread 
+Origin: Scottish
+Vegetarian: True
+Calories: 502 from the stack.
+Popped Name: Pavlova
+Origin: New Zealand
+Vegetarian: True
+Calories: 272 from the stack.
+Popped Name: Hokey Pokey Ice Cream
+Origin: New Zealand
+Vegetarian: True
+Calories: 106 from the stack.
+Popped Name: Fricot
+Origin: Canadian
+Vegetarian: False
+Calories: 360 from the stack.
+Popped Name: Chip Butty
+Origin: English
+Vegetarian: True
+Calories: 956 from the stack.
+Popped Name: Grilled Salmon
+Origin: Canadian
+Vegetarian: False
+Calories: 511 from the stack.
+Popped Name: Ravioli
+Origin: Italian
+Vegetarian: False
+Calories: 246 from the stack.
+Popped Name: Crepe
+Origin: Italian
+Vegetarian: True
+Calories: 186 from the stack.
+Popped Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425 from the stack.
+Popped Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713 from the stack.
+Popped Name: Chicken Kabob
+Origin: Indian
+Vegetarian: False
+Calories: 167 from the stack.
+Popped Name: Panzerotti
+Origin: Italian
+Vegetarian: False
+Calories: 770 from the stack.
+Popped Name: Spring Rolls
+Origin: Chinese
+Vegetarian: True
+Calories: 200 from the stack.
+Popped Name: Chicken Chow Mein
+Origin: Chinese
+Vegetarian: False
+Calories: 178 from the stack.
+Popped Name: Chicken Wings
+Origin: American
+Vegetarian: False
+Calories: 298 from the stack.
+Test is_empty after popping all items: True
+
+-------------------------------------------------------

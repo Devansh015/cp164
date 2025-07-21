@@ -1,0 +1,1038 @@
+"""
+-------------------------------------------------------
+Assignment 5 Testing File
+-------------------------------------------------------
+Author:  Devansh Jain
+ID:      169061596
+Email:   jain1596@mylaurier.ca
+Version: "2024-02-10"
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+First List:
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+
+Second List:
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+
+Are the lists equal: True
+Duplicate Appended...
+
+First List:
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+
+Second List:
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+List Cleaned...
+
+First List:
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+
+Second List:
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+Two list combined to one...
+
+Main List
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+First List:
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+Name: Greek Salad
+Origin: Greek
+Vegetarian: True
+Calories: 185
+
+Second List:
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+Intersection of Two Lists...
+
+Main List
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+Prepending the food 'Pavlova'...
+First List:
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+Name: Greek Salad
+Origin: Greek
+Vegetarian: True
+Calories: 185
+
+Second List:
+---------------
+Name: Pavlova
+Origin: New Zealand
+Vegetarian: True
+Calories: 272
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+Front Removed...
+First List:
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+Name: Greek Salad
+Origin: Greek
+Vegetarian: True
+Calories: 185
+
+Second List:
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+First List:
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+Name: Greek Salad
+Origin: Greek
+Vegetarian: True
+Calories: 185
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+
+Second List:
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+All 'Candy' items removed...
+First List:
+---------------
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+Name: Greek Salad
+Origin: Greek
+Vegetarian: True
+Calories: 185
+
+Second List:
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+Main List
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+List split...
+First List:
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+
+Second List:
+---------------
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Main List
+---------------
+Lists Combined...
+First List:
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+
+Second List:
+---------------
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+Main List
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+Lists Split in an alternating order...
+First List:
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+
+Second List:
+---------------
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+Main List
+---------------
+
+-------------------------------------------------------
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+Items in List1
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+Name: Chip Butty
+Origin: English
+Vegetarian: True
+Calories: 956
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+
+Items in List2
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+
+Items in List3
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+
+Is 'Candy' in list1: True
+Are list1 and list2 equal: False
+How the following code runs: list1[0] -> Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+How many times did 'Candy' appear in list1: 2
+List1 after being cleaned...
+Items in List1
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+Name: Chip Butty
+Origin: English
+Vegetarian: True
+Calories: 956
+
+The index of 'Candy' in list1 is: 0
+The intersected values of list1 and list2 are in list3...
+
+Items in List3
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+
+The max in list1 is Name: Chip Butty
+Origin: English
+Vegetarian: True
+Calories: 956 and min is Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+First item in list1 is Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+List after 'Lasagna' is removed...
+Items in List1
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+Name: Chip Butty
+Origin: English
+Vegetarian: True
+Calories: 956
+
+List after front is removed...
+Items in List1
+---------------
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+Name: Chip Butty
+Origin: English
+Vegetarian: True
+Calories: 956
+
+List after 'Pepperoni Pizza' is removed...
+Items in List1
+---------------
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Chip Butty
+Origin: English
+Vegetarian: True
+Calories: 956
+
+Reseting lists...
+Items in List1
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+
+Items in List2
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+
+Items in List3
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+
+Lists after being split...
+Items in List1
+---------------
+
+Items in List2
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+
+Items in List3
+---------------
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+
+Reseting lists...
+Items in List1
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+
+Items in List2
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+
+Items in List3
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+
+Splitting lists in an alternating order...
+Items in List1
+---------------
+
+Items in List2
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+
+Items in List3
+---------------
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+
+Reseting lists...
+Items in List1
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+
+Items in List2
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+
+Items in List3
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+
+Splitting lists from 1...
+Items in List1
+---------------
+
+Items in List2
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+
+Items in List3
+---------------
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+
+Reseting lists...
+Items in List1
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+
+Items in List2
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+
+Items in List3
+---------------
+Name: Candy
+Origin: None
+Vegetarian: True
+Calories: 120
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+Name: Fried Rice
+Origin: Chinese
+Vegetarian: False
+Calories: 425
+Name: Pepperoni Pizza
+Origin: Italian
+Vegetarian: False
+Calories: 713
+
+Running the following code: list1.find('Lasagna') -> 
+Name: Lasagna
+Origin: Italian
+Vegetarian: False
+Calories: 135
+-------------------------------------------------------
